@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Recommendation.API\\DaprShop.Recommendation.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Contracts\\DaprShop.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Contracts\\DaprShop.Contracts.csproj",
+        "projectName": "DaprShop.Contracts",
+        "projectPath": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Contracts\\DaprShop.Contracts.csproj",
+        "packagesPath": "C:\\Users\\serbay.cevik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\serbay.cevik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Recommendation.API\\DaprShop.Recommendation.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Recommendation.API\\DaprShop.Recommendation.API.csproj",
+        "projectName": "DaprShop.Recommendation.API",
+        "projectPath": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Recommendation.API\\DaprShop.Recommendation.API.csproj",
+        "packagesPath": "C:\\Users\\serbay.cevik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Recommendation.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\serbay.cevik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Contracts\\DaprShop.Contracts.csproj": {
+                "projectPath": "C:\\Users\\serbay.cevik\\Documents\\OCTOPUS-REPO\\daprshop\\DaprShop.Contracts\\DaprShop.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
